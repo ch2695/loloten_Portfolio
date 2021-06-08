@@ -92,12 +92,32 @@ div#wbstFrame a {
 
 	/* 오늘의 신상 시작 */
 div#todayNew {
-	height: 600px;
+	height: 1500px;
+	padding-left: 55px;
+}
+div.newItemArticle {
+	margin-right: 20px;
 }
 div#todayNew>div:first-child {
 	font-size: 35px;
 	text-align: center;
 	margin-bottom: 50px;
+}
+div#newItemList {
+	display: flex;
+	flex-wrap: wrap;
+}
+div.newItemArticle p:nth-child(2){
+	font-weight: bold;
+	padding: 20px 0 20px 0;
+}
+div.newItemArticle p:last-child {
+	padding-bottom: 50px;
+}
+div.newItemArticle p:last-child span:last-child {
+	color: #f80;
+	font-weight: bold;
+	margin-left: 15px;
 }
 	/* 오늘의 신상 끝 */
 
